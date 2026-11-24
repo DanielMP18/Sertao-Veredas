@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CatalogoArvores" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://src/arvores/catalogo_arvores.gd" id="1_catalogo"]
+[ext_resource type="Resource" path="res://dados/arvores/aroeira.tres" id="2_aroeira"]
+[ext_resource type="Script" path="res://src/arvores/dados_arvore.gd" id="3_dados_arvore"]
+
+[resource]
+script = ExtResource("1_catalogo")
+arvores = Array[ExtResource("3_dados_arvore")]([ExtResource("2_aroeira")])

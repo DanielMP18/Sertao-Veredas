@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ConfigJogo" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/nucleo/config_jogo.gd" id="1_config"]
+
+[resource]
+script = ExtResource("1_config")
+creditos_iniciais = 30
+poluicao_inicial = 150.0
+poluicao_base_por_rodada = 10.0
+crescimento_poluicao_por_rodada = 1.0
+limite_vitoria_poluicao = 0.0
+dano_por_poluicao = 0.06
+creditos_por_rodada = 5
+creditos_por_poluicao_removida = 0.2

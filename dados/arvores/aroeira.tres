@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DadosArvore" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/arvores/dados_arvore.gd" id="1_dados"]
+
+[resource]
+script = ExtResource("1_dados")
+id = &"aroeira"
+nome = "Aroeira"
+custo = 10
+vida_maxima = 30.0
+purificacao = 5.0
+cor = Color(0.133333, 0.545098, 0.133333, 1)
